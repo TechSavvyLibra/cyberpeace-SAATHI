@@ -129,11 +129,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectVoice, onSelectText, 
       {/* New Action Buttons Section */}
       <div className="mt-12 flex flex-wrap justify-center gap-4">
         <a
-          href="#"
-          onClick={(e) => e.preventDefault()}
+          href="https://github.com/TechSavvyLibra/cyberpeace-SAATHI/tree/main"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 bg-slate-800 text-white rounded-2xl hover:bg-slate-700 transition-all shadow-lg hover:shadow-xl active:scale-95 group"
         >
-          <i className="fas fa-code-branch text-blue-400 group-hover:rotate-12 transition-transform"></i>
+          <i className="fab fa-github text-white group-hover:rotate-12 transition-transform"></i>
           <span className="font-semibold text-sm">Source Code & Repository</span>
         </a>
         <a
