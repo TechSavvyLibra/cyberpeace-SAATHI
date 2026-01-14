@@ -1,0 +1,7 @@
+{
+  "name": "CyberPeace Guardian",
+  "description": "A sophisticated AI-powered security assistant designed to help users combat cybercrime threats using both real-time voice and text interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
