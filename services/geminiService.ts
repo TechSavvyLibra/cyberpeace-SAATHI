@@ -39,7 +39,7 @@ const complaintTool: FunctionDeclaration = {
 };
 
 export const getGeminiClient = () => {
-  const apiKey = "AIzaSyCMeJUNJGz2nWpBVbGZElMDv98IipUk3YM";
+  const apiKey = "<Gemini_Key>";
   return new GoogleGenAI({ apiKey });
 };
 
